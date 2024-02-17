@@ -19,8 +19,8 @@ img {
 }
 
 body {
-    font-family: "Roboto", "Raleway", sans-serif;
-    color: #2e2f42;
+    font-family: "Roboto", sans-serif;
+    color: #434455
     background-color: #fff;
 }
 
@@ -35,10 +35,11 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: #4d5ae5;
 }   
 
-.text-purple {
-    color: #4d5ae5;
+.text-grey {
+    color: #2e2f42;
 }
 
 .menu-link {
@@ -46,6 +47,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .menu-link:hover,
@@ -53,12 +55,15 @@ body {
     color: #404bbf;
 }
 
-.mail {
+.address-nav {
     font-style: normal;
+}
+
+.mail {
+    
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
 }
 
 .mail:hover,
@@ -67,11 +72,9 @@ body {
 }
 
 .phone {
-    font-style: normal;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
 }
 
 .phone:hover,
@@ -83,16 +86,20 @@ body {
 
 /* ========= Main section styles ========= */
 
+.section-heading {
+    background: #2e2f42;
+}
+
 .heading-main {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
-    background: #2e2f42;
 }
 
 .button-order {
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -112,21 +119,30 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .feature-desc {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+}
+
+.team-section{
+    background: #f4f4fd;
 }
 
 .subheading {
     font-size: 36px;
-    line-height: 1.1;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
+    color: #2e2f42;
+}
+
+.team-member {
+    background: #fff;
 }
 
 .member-name {
@@ -135,6 +151,7 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
+    color: #2e2f42;
 }
 
 .position-desc {
@@ -142,7 +159,6 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #434455;
 }
 
 .product-name {
@@ -151,6 +167,7 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
+    color: #2e2f42;
 }
 
 .product-description {
@@ -158,20 +175,24 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #434455;
 }
 
 /* ========= Main section styles ========= */
 
 /* ========= Footer styles ========= */
 
+.page-footer {
+    background: #2e2f42;
+}
+
 .logo-footer {
     font-family: "Raleway", sans-serif;
+    font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #f4f4fd;
+    color: #4d5ae5;
 }
 
 .desc-footer {
